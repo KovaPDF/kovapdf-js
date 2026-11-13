@@ -2,8 +2,7 @@ name: publish
 
 # Publishes @kovapdf/sdk to npm with provenance when a release is published
 # in the package's own public repository. Nothing in the KovaPDF monorepo runs
-# this file. Set up npm trusted publishing for this repository (or an
-# NPM_TOKEN secret) before the first release.
+# this file. Publishes through npm trusted publishing (no stored token).
 on:
   release:
     types: [published]
@@ -27,5 +26,3 @@ jobs:
       - run: npm run typecheck
       - run: npm test
       - run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
