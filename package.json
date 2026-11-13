@@ -19,7 +19,7 @@
     "./package.json": "./package.json"
   },
   "bin": { "kovapdf": "dist/esm/cli.js" },
-  "files": ["dist", "README.md", "LICENSE", "SECURITY.md", "CHANGELOG.md"],
+  "files": ["dist", "README.md", "LICENSE", "NOTICE", "SECURITY.md", "CHANGELOG.md"],
   "sideEffects": false,
   "engines": { "node": ">=18.17" },
   "scripts": {

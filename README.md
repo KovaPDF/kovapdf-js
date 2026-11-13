@@ -157,4 +157,4 @@ tests against a local mock server.
 ## Licence
 
 MIT for the code (see LICENSE). The KovaPDF name, logos and images are not
-covered by it.
+covered by it (see NOTICE).
