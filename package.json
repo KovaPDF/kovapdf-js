@@ -4,6 +4,7 @@
   "description": "The official KovaPDF client for Node.js: compress, merge, split, convert, read scans, redact, check signatures and send documents for signature. Includes the kovapdf command line tool.",
   "license": "MIT",
   "homepage": "https://www.kovapdf.com/developers",
+  "repository": { "type": "git", "url": "git+https://github.com/KovaPDF/kovapdf-js.git" },
   "bugs": "https://www.kovapdf.com/contact",
   "keywords": ["pdf", "kovapdf", "compress", "merge", "ocr", "redact", "e-signature", "bijoy", "unicode"],
   "type": "module",
